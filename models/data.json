@@ -1,0 +1,60 @@
+[
+  {
+    "projects": [
+      {
+        "id": 1,
+        "imgUrl": "../assets/City_143.jpg",
+        "title": "Coffee Shop",
+        "desc": "A coffee shop for distributing quality coffee drinks.",
+        "type": "Coffee shop",
+        "price": "Ghc 1,500",
+        "project_link": "http:localhost:3000"
+      },
+      {
+        "id": 2,
+        "imgUrl": "../assets/City_3.jpg",
+        "title": "IT Soltions Center",
+        "desc": "An IT company specalized in computer system repairs",
+        "type": "IT",
+        "price": "Ghc 1,700",
+        "project_link": "http:localhost:4000"
+      },
+      {
+        "id": 3,
+        "imgUrl": "../assets/City_160.jpg",
+        "title": "Afua's Clothing",
+        "desc": "A custom clothing line shop for everything African",
+        "type": "Clothing shop",
+        "price": "Ghc 2,500",
+        "project_link": "http:localhost:5000"
+      },
+      {
+        "id": 4,
+        "imgUrl": "../assets/City_47.jpg",
+        "title": "Eddie's Bakery",
+        "desc": "A custom bakery shop for all kinds of cakes, doughnut etc...",
+        "type": "Cake Baking Shop",
+        "price": "Ghc 1,200",
+        "project_link": "http:localhost:6000"
+      },
+      {
+        "id": 5,
+        "imgUrl": "../assets/Abs_274.jpg",
+        "title": "Zenith Bank",
+        "desc": "The popular Zenith Bank online banking application for customers.",
+        "type": "Banking Application System",
+        "price": "Ghc 4,800",
+        "project_link": "http:localhost:7000"
+      },
+      {
+        "id": 6,
+        "imgUrl": "../assets/City_6.jpg",
+        "title": "E-Student",
+        "desc": "An online students registration portal for universities.",
+        "type": "Student Registration Portal",
+        "price": "Ghc 5,000",
+        "project_link": "http:localhost:8000"
+      }
+    ]
+  }
+]

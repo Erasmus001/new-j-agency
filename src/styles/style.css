@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+  user-select: none;
+  user-zoom: none;
+}
+
+:root {
+
+  /* SPACING */
+  --max-width: 144px;
+  --min-width: 768px;
+
+  /* MAIN COLORS */
+  --main-indigo: #460483;
+  --main-white: #fff;
+  --dirty-white: whitesmoke;
+  --txt-black: #000;
+  --txt-fade: rgb(28, 28, 28);
+
+  /* SECONDARY COLORS */
+  --lemon-green: limegreen;
+  --lime-green: rgba(32, 232, 32, 0.874);
+  --tomato-red: tomato;
+
+  /* HEADINGS */
+  /* --heading-h1: ;
+  --heading-h2: ;
+  --heading-h3: ;
+  --heading-h4: ;
+  --heading-h5: ;
+  --heading-h6: ; */
+
+  /* PARAGRAPHS */
+  /* --para-1: ;
+  --para-2: 14px;
+  --para-3: ;
+  --para-4: ;
+  --para-5: ;
+  --para-6: ; */
+  
+
+  /* SCREEN SIZES */
+  --desktop-screens: 1440px;
+  --tablet-screens: 1024px;
+  --small-screens: 375px;
+  --xs-small-screens: 360px;
+
+
+  /* DESKTOP TYPOGRAPHY */
+  --small-txt: 12px;
+  --medium-txt: 14px;
+  --body-sm-txt: 16px;
+  --body-md-txt: 18px;
+  --subtitle-txt: var(var(--body-md-txt));
+  --title-sm-txt: 24px;
+  --title-md-txt: 28px;
+  --main-sm-title: 32px:
+  --main-md-title: 38px:
+  --main-lg-title: 42px:
+  --main-xl-title: 48px:
+  --main-xxl-title: 64px:
+  --main-xxxl-title: 70px:
+
+  /* MOBILE TYPOGRAPHY */
+  --mobile-small-txt: 12px;
+  --mobile-details-txt: 14px;
+  --mobile-body-txt: 16px;
+  --mobile-subtitle-txt: 18px; 
+  --mobile-title-txt: 28px; 
+  --mobile-header-txt: 38px; 
+}
