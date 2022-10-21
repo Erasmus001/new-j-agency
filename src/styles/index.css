@@ -1,5 +1,13 @@
 /* DESKTOPS */
 @media (max-width: 1440px) {
+  *{
+    background: transparent;
+  }
+
+  body {
+    background: transparent;
+  }
+
   /* HEADER */
   .wrapper {
     width: 100%;
@@ -10,6 +18,7 @@
     left: 0;
     position: sticky;
     z-index: 9;
+    background: transparent;
   }
 
   header {
@@ -25,9 +34,9 @@
   }
 
   .brand a {
-    font-size: var(--body-md-txt);
+    font-size: var(--title-sm-txt);
     font-weight: 550;
-    color: var(--main-indigo);
+    color: black;
   }
 
   nav {
@@ -205,18 +214,19 @@
     padding: 130px 120px 80px 120px;
   }
 
-  :is(.services_hd h3, .projects_hd h3, .why_us_hd h3) {
+  :is(.services_hd h3, .projects_hd h3, .why_us_hd h3, .testimonials_hd h3) {
     font-size: 20px;
     color: whitesmoke;
     font-weight: 500;
     margin-bottom: 10px;
   }
 
-  :is(.services_title, .projects_title, .why_us_title) {
+  :is(.services_title, .projects_title, .why_us_title, .testimonials_title) {
     width: 260px;
   }
 
-  :is(.services_title h3, .projects_title h3, .why_us_title h3) {
+  :is(.services_title h3, .projects_title h3, .why_us_title
+      h3, .testimonials_title h3) {
     font-size: 40px;
     color: white;
     text-transform: capitalize;
@@ -380,11 +390,9 @@
 
   .why_us_lists {
     width: 100%;
-    /* border: 1px solid white; */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    /* overflow: hidden; */
   }
 
   .why_us_card {
@@ -413,6 +421,115 @@
     line-height: 1.3;
     color: rgb(216, 216, 216);
   }
+
+  /* TESTIMONIALS */
+  .testimonials {
+    width: 100%;
+    max-width: var(--desktop-screens);
+    margin: 0 auto;
+    padding: 80px 120px;
+    background: rgba(245, 245, 245, 0.476);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .testimonials_title h3,
+  .testimonials_hd h3 {
+    color: black;
+  }
+
+  .testimonials_container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+
+  .testimony {
+    width: 100%;
+    /* box-shadow: 1px 2px 15px rgba(79, 79, 79, 0.192); */
+    background-color: rgb(255, 255, 255);
+    padding: 40px 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    transition: transform 0.25s ease;
+  }
+
+  .testimony:hover {
+    transform: scale(1.02);
+    box-shadow: 1px 2px 15px rgba(214, 214, 214, 0.376);
+  }
+
+  .client_profile {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: rgba(227, 227, 227, 0.427);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .client_profile img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .testimony_txt {
+    text-align: center;
+    height: calc(3 * 24px); /* <= restricting to 4 lines*/
+    overflow: hidden;
+    position: relative;
+    line-height: 1.4;
+  }
+
+  .testimony_txt::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 24px;
+    width: 100%;
+
+    background: linear-gradient(to right, transparent, white);
+  }
+
+  .testimony_client {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 6px;
+  }
+
+  .testimony_client .client {
+    font-size: 18px;
+  }
+
+  .testimony_client .role {
+    font-size: 14px;
+    color: rgb(69, 69, 69);
+  }
+
+
+  /* CONTACT US */
+  .contact_us {
+    width: 100%;
+    max-width: var(--desktop-screens);
+    margin: 0 auto;
+    padding: 80px 120px;
+  }
+
 }
 
 /* TABLETS */
