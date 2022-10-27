@@ -1,28 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>New J | Contact</title>
+  <title>New J | Contact Us</title>
+  <link rel="stylesheet" href="./styles/style.css">
   <link rel="stylesheet" href="./styles/contact.css">
   <link rel="stylesheet" href="./styles/aos.css">
-  <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
   <!-- HEADER -->
+  <div class="wrapper">
+    <header>
+      <div class="brand">
+        <a href="index.html">
+          Agencyy
+        </a>
+      </div>
+
+      <nav>
+        <a href="./about.html">About Us</a>
+        <a href="./services.html">Services</a>
+        <a href="./projects.html">Projects</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+
+      <div class="mobile_menu">
+        <nav>
+          <a href="about.html">About Us</a>
+          <a href="services.html">Services</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+
+      <div class="menu_toggler">
+        <button><img src="../assets/feathers/menu.svg" alt=""></button>
+      </div>
+
+      <div class="get_started">
+        <a href="get-started.html">Start a project</a>
+      </div>
+    </header>
+  </div>
 
   <!-- BANNER -->
+  <section class="contact_banner">
+    <div class="contact_hd">
+      <h2 data-aos="fade-up">Contact Us</h2>
+      <p data-aos="fade-up" data-aos-delay="500">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        Facilis doloribus facere voluptate quia.</p>
+    </div>
+  </section>
 
-  <!-- CONTACT FORM WITH CONTACT DETAILS -->
+  <!-- BACKED -->
+  <section class="backed">
+    <div class="backed_wrapper">
+      <div class="backed_content">
+        <div class="backed_content_title">
+          <h2>Backed By Innovative Team Members</h2>
+        </div>
+        <div class="backed_content_para">
+          <!-- <p>We started our journey with a vision to empower all businesses with innovative 
+            technology and digital solutions, delivered by the most experienced team of 
+            web developers.</p> -->
+        </div>
+      </div>
+      <div class="backed_vid isPlaying hidden">
+        <video src="/assets/bannerVid.mp4" loop mute id="backedVideo"></video>
+        <button type="button" id="playVidBtn" class="playBtn">
+          <img src="/assets/feathers/play.svg" alt="">
+        </button>
+      </div>
+      <div>
+        <a href="./projects.html" class="sample_projects">View our work</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <div>
+      <div class="testimonials_hd" data-aos="fade-up" data-aos-delay="300">
+        <h3>Testimonials</h3>
+      </div>
+      <div class="testimonials_title" data-aos="fade-up" data-aos-delay="400">
+        <h3>What our clients say</h3>
+      </div>
+    </div>
+    <div class="testimonials_container">
+      <div class="testimony_card" data-aos="fade-up" data-aos-delay="500">
+        <div class="testimony">
+          <div class="client_profile">
+            <img src="/assets/feathers/user.svg" alt="">
+          </div>
+          <div class="testimony_txt">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero cum vel vitae facilis est laborum delectus
+              ipsam molestias corporis molestiae aspernatur, non quia temporibus quasi, explicabo a. Iusto, neque magni?
+            </p>
+          </div>
+          <div class="testimony_client">
+            <p class="client">Erasmus Mensah</p>
+            <p class="role">Codewitheras - Founder</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimony_card" data-aos="fade-up" data-aos-delay="600">
+        <div class="testimony">
+          <div class="client_profile">
+            <img src="/assets/feathers/user.svg" alt="">
+          </div>
+          <div class="testimony_txt">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero cum vel vitae facilis est laborum delectus
+              ipsam molestias corporis molestiae aspernatur, non quia temporibus quasi, explicabo a. Iusto, neque magni?
+            </p>
+          </div>
+          <div class="testimony_client">
+            <p class="client">Erasmus Mensah</p>
+            <p class="role">Codewitheras - Founder</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimony_card" data-aos="fade-up" data-aos-delay="700">
+        <div class="testimony">
+          <div class="client_profile">
+            <img src="/assets/feathers/user.svg" alt="">
+          </div>
+          <div class="testimony_txt">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero cum vel vitae facilis est laborum delectus
+              ipsam molestias corporis molestiae aspernatur, non quia temporibus quasi, explicabo a. Iusto, neque magni?
+            </p>
+          </div>
+          <div class="testimony_client">
+            <p class="client">Erasmus Mensah</p>
+            <p class="role">Codewitheras - Founder</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RECOMMENDATIONS -->
 
   <!-- NEWSLETTER SUBSCRIPTION -->
+  <section class="news_letter">
+    <div class="bg">
+      <div class="news_letter_content">
+        <p data-aos="fade-up" data-aos-delay="500">Join Our Community</p>
+        <h3 data-aos="fade-up" data-aos-delay="550">Subscribe To Our Newsletter</h3>
+        <p class="txt" data-aos="fade-up" data-aos-delay="600">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis nisi ipsam consectetur cumque corporis
+        </p>
+        <div class="form" data-aos="fade-up" data-aos-delay="650">
+          <form autocapitalize="on" autocomplete="on">
+            <div class="form_group">
+              <input type="email" name="email" id="email" placeholder="Enter your E-mail" required>
+            </div>
+            <button type="submit" id="submitBtn">Get Started</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- FOOTER -->
+  <footer>
+    <div class="footer_content">
+      <div class="footer_brand" data-aos="fade-up" data-aos-delay="700">
+        <div class="brand_hd">
+          <a href="index.html">Agencyy</a>
+        </div>
+        <div class="brand_info">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic architecto a possimus voluptatibus nulla
+            quisquam maxime sed inventore consequatur reiciendis amet nobis odio iure nemo corrupti, perspiciatis
+            voluptates cupiditate et? Obcaecati, modi? Totam, laboriosam maiores!
+          </p>
+        </div>
+      </div>
+
+      <!-- FOOTER LINKS -->
+      <div class="footer_links_wrapper">
+        <!-- 1ST FOOTER LINKS SECTION -->
+        <div class="footer_links_container" data-aos="fade-up" data-aos-delay="750">
+          <div class="footer_link_hd">
+            <h4>Our Services</h4>
+          </div>
+          <div class="footer_links">
+            <nav>
+              <a href="">Help Center</a>
+              <a href="">FAQ</a>
+              <a href="">Transaction</a>
+              <a href="">Invention</a>
+            </nav>
+          </div>
+        </div>
+
+
+        <!-- 2ND FOOTER LINKS SECTION -->
+        <div class="footer_links_container" data-aos="fade-up" data-aos-delay="800">
+          <div class="footer_link_hd">
+            <h4>Company</h4>
+          </div>
+          <div class="footer_links">
+            <nav>
+              <a href="">About Us</a>
+              <a href="">Career</a>
+              <a href="">Management</a>
+            </nav>
+          </div>
+        </div>
+
+
+        <!-- 3RD FOOTER LINKS SECTION -->
+        <div class="footer_links_container" data-aos="fade-up" data-aos-delay="850">
+          <div class="footer_link_hd">
+            <h4>Contact Information</h4>
+          </div>
+          <div class="footer_links">
+            <p class="email">
+              Email:
+              <a href="mailto:agencyy@agencyy.com" target="_blank" rel="no-referral">agencyy@agencyy.com</a>
+            </p>
+            <p class="tel">
+              <img src="/assets/bx-mobile.svg" alt="mobile" loading="lazy">
+              <a href="tel:+233551186991" target="_blank">+233 5511 86991</a>
+            </p>
+            <div class="socials">
+              <a href="">
+                <img src="/assets/feathers/facebook.svg" alt="">
+              </a>
+              <a href="">
+                <img src="/assets/feathers/linkedin.svg" alt="">
+              </a>
+              <a href="">
+                <img src="/assets/feathers/twitter.svg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SUBFOOTER -->
+    <div class="sub_footer">
+      <div class="sub_footer_left">
+        <p>Copyright @2022 agencyy Inc.</p>
+      </div>
+      <div class="sub_footer_right">
+        <a href="">Privacy</a>
+        <a href="">Security</a>
+        <a href="">Terms</a>
+      </div>
+    </div>
+  </footer>
   <script src="./scripts/aos.js"></script>
   <script src="./scripts/main.js" type="module"></script>
   <script>
     AOS.init();
   </script>
 </body>
+
 </html>
