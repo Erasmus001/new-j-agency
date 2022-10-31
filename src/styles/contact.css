@@ -199,7 +199,7 @@
     background: rgba(255, 255, 255, 0.545);
     transition: transform 0.25s linear;
     /* padding-left: 20px; */
-    z-index: 9;
+    /* z-index: 9; */
     box-shadow: 2px 2px 15px rgba(177, 177, 177, 0.271);
   }
 

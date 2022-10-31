@@ -683,7 +683,7 @@
     font-size: 15px;
   }
 
-  .form {
+  .newsletter_form {
     width: 500px;
     border: 1px solid rgba(128, 128, 128, 0.479);
     display: flex;
@@ -692,7 +692,7 @@
     border-radius: 25px;
   }
 
-  .form form {
+  .newsletter_form form {
     width: 100%;
     display: flex;
     align-items: center;
@@ -700,11 +700,11 @@
     gap: 5px;
   }
 
-  .form form .form_group {
+  .newsletter_form form .form_group {
     flex: 1;
   }
 
-  .form_group input {
+  .form_group .newsletter_input {
     padding: 13px 20px;
     width: 100%;
     border: 0;
@@ -714,15 +714,13 @@
     border-radius: 25px;
   }
 
-  .form form button {
+  .newsletter_form form button {
     background-color: var(--lime-green);
     padding: 13px 25px;
     border-radius: 25px;
     font-size: 16px;
     cursor: pointer;
   }
-
-
 
 
   /* FOOTER */
