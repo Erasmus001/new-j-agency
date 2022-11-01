@@ -5,10 +5,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>New J | Contact Us</title>
-  <link rel="stylesheet" href="./styles/style.css">
-  <link rel="stylesheet" href="./styles/contact.css">
-  <link rel="stylesheet" href="./styles/aos.css">
+  <title>New J | Start a Project</title>
+  <link rel="stylesheet" href="./src/styles/style.css">
+  <link rel="stylesheet" href="./src/styles/get-started.css">
+  <link rel="stylesheet" href="./src/styles/aos.css">
 </head>
 
 <body>
@@ -22,18 +22,18 @@
       </div>
 
       <nav>
-        <a href="./about.html">About Us</a>
-        <a href="./services.html">Services</a>
-        <a href="./projects.html">Projects</a>
-        <a href="./contact.html">Contact</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
       </nav>
 
       <div class="mobile_menu">
         <nav>
-          <a href="about.html">About Us</a>
-          <a href="services.html">Services</a>
-          <a href="projects.html">Projects</a>
-          <a href="contact.html">Contact</a>
+          <a href="./about.html">About Us</a>
+          <a href="./services.html">Services</a>
+          <a href="./projects.html">Projects</a>
+          <a href="./contact.html">Contact</a>
         </nav>
       </div>
 
@@ -49,104 +49,42 @@
 
   <!-- BANNER -->
   <section class="contact_banner">
-    <div class="contact_hd">
-      <h2 data-aos="fade-up">Contact Us</h2>
-      <p data-aos="fade-up" data-aos-delay="500">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-        Facilis doloribus facere voluptate quia.</p>
+    <!-- <h1>hello</h1> -->
+    <div class="get_started_txt">
+      <h3 data-aos="fade-up">Start a Business With Us</h3>
+      <p data-aos="fade-up" data-aos-delay="500">Create a successful online presence by filling the form below.</p>
     </div>
   </section>
 
-  <!-- BACKED -->
-  <section class="backed">
-    <div class="backed_wrapper">
-      <div class="backed_content">
-        <div class="backed_content_title">
-          <h2>Backed By Innovative Team Members</h2>
-        </div>
-        <div class="backed_content_para">
-          <!-- <p>We started our journey with a vision to empower all businesses with innovative 
-            technology and digital solutions, delivered by the most experienced team of 
-            web developers.</p> -->
-        </div>
-      </div>
-      <div class="backed_vid isPlaying hidden">
-        <video src="/assets/bannerVid.mp4" loop mute id="backedVideo"></video>
-        <button type="button" id="playVidBtn" class="playBtn">
-          <img src="/assets/feathers/play.svg" alt="">
-        </button>
-      </div>
-      <div>
-        <a href="./projects.html" class="sample_projects">View our work</a>
-      </div>
+
+  <!-- FORM -->
+  <section class="project_form">
+    <div class="form_hd" data-aos="fade-up" data-aos-delay="800">
+      <h3>Get Started</h3>
     </div>
+    <form data-aos="fade-up" data-aos-delay="1000">
+      <div class="form_group">
+        <label for="company_name">Company Name or Full Name</label>
+        <input type="text" name="company_name" id="company_name" placeholder="Enter your company name" required>
+      </div>
+      <div class="form_group">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter email" required>
+      </div>
+      <div class="form_group">
+        <label for="subject">Subject</label>
+        <input type="subject" name="subject" id="subject" placeholder="Enter subject" required>
+      </div>
+      <div class="form_group">
+        <label for="message">Message</label>
+        <textarea name="subject" id="message" placeholder="Enter message" required></textarea>
+      </div>
+      <div class="submit">
+        <button type="submit" id="submitBtn">Send message</button>
+      </div>
+    </form>
   </section>
 
-  <!-- TEAM -->
-
-  <!-- TESTIMONIALS -->
-  <section class="testimonials">
-    <div>
-      <div class="testimonials_hd" data-aos="fade-up" data-aos-delay="300">
-        <h3>Testimonials</h3>
-      </div>
-      <div class="testimonials_title" data-aos="fade-up" data-aos-delay="400">
-        <h3>What our clients say</h3>
-      </div>
-    </div>
-    <div class="testimonials_container">
-      <div class="testimony_card" data-aos="fade-up" data-aos-delay="500">
-        <div class="testimony">
-          <div class="client_profile">
-            <img src="/assets/feathers/user.svg" alt="">
-          </div>
-          <div class="testimony_txt">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero cum vel vitae facilis est laborum delectus
-              ipsam molestias corporis molestiae aspernatur, non quia temporibus quasi, explicabo a. Iusto, neque magni?
-            </p>
-          </div>
-          <div class="testimony_client">
-            <p class="client">Erasmus Mensah</p>
-            <p class="role">Codewitheras - Founder</p>
-          </div>
-        </div>
-      </div>
-      <div class="testimony_card" data-aos="fade-up" data-aos-delay="600">
-        <div class="testimony">
-          <div class="client_profile">
-            <img src="/assets/feathers/user.svg" alt="">
-          </div>
-          <div class="testimony_txt">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero cum vel vitae facilis est laborum delectus
-              ipsam molestias corporis molestiae aspernatur, non quia temporibus quasi, explicabo a. Iusto, neque magni?
-            </p>
-          </div>
-          <div class="testimony_client">
-            <p class="client">Erasmus Mensah</p>
-            <p class="role">Codewitheras - Founder</p>
-          </div>
-        </div>
-      </div>
-      <div class="testimony_card" data-aos="fade-up" data-aos-delay="700">
-        <div class="testimony">
-          <div class="client_profile">
-            <img src="/assets/feathers/user.svg" alt="">
-          </div>
-          <div class="testimony_txt">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero cum vel vitae facilis est laborum delectus
-              ipsam molestias corporis molestiae aspernatur, non quia temporibus quasi, explicabo a. Iusto, neque magni?
-            </p>
-          </div>
-          <div class="testimony_client">
-            <p class="client">Erasmus Mensah</p>
-            <p class="role">Codewitheras - Founder</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- RECOMMENDATIONS -->
 
   <!-- NEWSLETTER SUBSCRIPTION -->
   <section class="news_letter">
@@ -160,7 +98,7 @@
         <div class="form" data-aos="fade-up" data-aos-delay="650">
           <form autocapitalize="on" autocomplete="on">
             <div class="form_group">
-              <input type="email" name="email" id="email" placeholder="Enter your E-mail" required>
+              <input type="email" name="email" id="email" placeholder="Enter your E-mail" required class="newsletter_input">
             </div>
             <button type="submit" id="submitBtn">Get Started</button>
           </form>
@@ -260,11 +198,11 @@
     </div>
   </footer>
 
-  
-  <script src="./scripts/aos.js"></script>
-  <script src="./scripts/main.js" type="module"></script>
+
+  <script src="./src/scripts/main.js"></script>
+  <script src="./src/scripts/aos.js"></script>
   <script>
-    AOS.init();
+    AOS.init()
   </script>
 </body>
 
