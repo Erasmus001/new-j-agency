@@ -761,6 +761,8 @@
     border-radius: 25px;
     font-size: 16px;
     cursor: pointer;
+    border: 0;
+    outline: 0;
   }
 
   /* FOOTER */
@@ -796,6 +798,7 @@
   .brand_hd a {
     font-size: var(--title-sm-txt);
     font-weight: 550;
+    color: black;
   }
 
   .brand_info {
@@ -843,6 +846,7 @@
 
   .footer_links p a {
     font-size: var(--body-sm-txt);
+    color: gray;
   }
 
   .footer_links .socials {
