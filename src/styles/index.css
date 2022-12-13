@@ -1296,7 +1296,7 @@
     width: 100%;
     max-width: var(--desktop-screens);
     margin: 0 auto;
-    padding: 80px 120px;
+    padding: 80px 40px;
     gap: 50px;
   }
 
@@ -1305,10 +1305,12 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
+    /* border: 2px solid white; */
+
   }
 
   .why_us_card {
-    width: 270px;
+    width: 260px;
     border: 1px solid rgba(39, 39, 39, 0.5);
     padding: 35px 20px 30px 20px;
     border-radius: 10px;
